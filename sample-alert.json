@@ -1,0 +1,11 @@
+{
+  "simulated": true,
+  "alert_type": "possible SSH password spraying",
+  "source_ip": "192.0.2.10",
+  "distinct_username_count": 4,
+  "usernames": ["lab-user-01", "lab-user-02", "lab-user-03", "lab-user-04"],
+  "failed_event_count": 4,
+  "window_start_utc": "2026-10-20T09:00:00Z",
+  "window_end_utc": "2026-10-20T09:04:00Z",
+  "evidence_note": "Example data based on the Project 10 detection; not copied from real logs."
+}
